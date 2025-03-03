@@ -2,19 +2,17 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>画像のみ表示サイト</title>
+  <title>My Image Site</title>
   <style>
-    body, html {
+    /* 画面中央に画像を表示するためのCSS例 */
+    html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      background-color: #000; /* 背景色（任意） */
-    }
-    .container {
+      background-color: #eee;
       display: flex;
-      align-items: center;
       justify-content: center;
-      height: 100%;
+      align-items: center;
     }
     img {
       max-width: 100%;
@@ -24,9 +22,7 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <!-- 画像URLを自分のものに変更 -->
-    <img src="https://example.com/your-image.jpg" alt="表示する画像">
-  </div>
+  <!-- リポジトリ内のimagesフォルダにある画像を参照 -->
+  <img src="images/sample.jpg" alt="Sample Image">
 </body>
 </html>
